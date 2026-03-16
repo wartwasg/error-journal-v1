@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/query.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "routes": [
     {
       "src": "/api/query",
-      "dest": "/api/query.js",
-      "methods": ["POST", "OPTIONS"]
+      "dest": "/api/query.js"
     },
     {
       "src": "/(.*)",
